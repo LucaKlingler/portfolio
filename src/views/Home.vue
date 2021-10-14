@@ -8,10 +8,10 @@
         </div>
       </div>
       <div class="col dark" style="flex-grow: 1;">
-        <p class="aboutme">
-          <vue-typed-js :strings="typedWords" :loop="true" :backDelay="2000" :backSpeed="100" :smartBackspace="true" :shuffle="true" :cursorChar="'_'">
+        <vue-typed-js :strings="typedWords" :loop="true" :backDelay="2000" :backSpeed="100" :smartBackspace="true" :shuffle="true" :cursorChar="'_'" style="justify-content: center;">
             <h1 class="typing"></h1>
           </vue-typed-js>
+        <p class="aboutme" v-if="false">
           <!-- Through my studies at the Hochschule für Gestaltung Schwäbisch Gmünd I understand the language of design and development and can therefore combine the best of both worlds. -->
         </p>
         <div class="scrolldownWrapper">
@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="section" id="aboutme">
+    <div class="section dark" id="aboutme">
       <div class="col">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat odio pariatur quibusdam id, nobis dolor voluptas ipsa quod, laboriosam doloribus sequi earum beatae voluptatem! Ipsam mollitia dignissimos consectetur quam accusamus?
@@ -63,7 +63,7 @@ export default {
         'car enthusiast',
         'biker',
         'tech geek',
-        'professional binge watcher',
+        'pro binge watcher',
         'Luca Klingler',
       ],
     };
