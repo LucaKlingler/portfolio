@@ -15,6 +15,8 @@ body{
 * {
 font-size: 25pt;
 overflow-x: hidden;
+font-family: 'Roboto', sans-serif;
+/*font-family: 'Roboto Slab', serif;*/
 }
 
 .easteregg {
