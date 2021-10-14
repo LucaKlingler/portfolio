@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ easteregg: $store.state.easteregg }">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link class="router-link" to="/about">About Me</router-link> 
+      <router-link class="router-link" to="/">My Projects</router-link>
     </div>
     <router-view/>
   </div>
@@ -10,24 +10,37 @@
 
 <style lang="scss">
 @import "~@/assets/scss/vendors/bootstrap-vue/index";
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+body{
+  margin: 0;
+  padding: 0;
+}
+* {
+font-size: 25pt;
 }
 
-#nav {
-  padding: 30px;
+.easteregg {
+  cursor:url(https://i.ibb.co/PhLGzZn/luca.png), auto
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+.dark {
+  background-color: $dark-background-color;
+  color: $dark-text-color;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+#nav{
+  position: fixed;
+  text-align: center;
+  z-index: 2;
+  width: 100%;
+  height: 4em;
+  line-height: 4em;
+  font-size: 32pt;
+}
+#app{
+  position: relative;
+}
+.router-link{
+  color: black !important;
+  margin: 1em;
 }
 </style>

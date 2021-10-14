@@ -6,6 +6,9 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import VueTypedJs from 'vue-typed-js'
+
+Vue.use(VueTypedJs)
 
 Vue.config.productionTip = false
 

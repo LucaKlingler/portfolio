@@ -3,10 +3,14 @@ module.exports = {
 	css: {
 		loaderOptions: {
 			sass: {
-				additionalData: bootstrapSassAbstractsImports.join('\n')
+				additionalData: `${bootstrapSassAbstractsImports.join('\n')}
+          @import "@/assets/scss/_variables.scss";
+        `
 			},
 			scss: {
-				additionalData: [...bootstrapSassAbstractsImports, ''].join(';\n')
+				additionalData: `${ [...bootstrapSassAbstractsImports, ''].join(';\n')}
+				@import "@/assets/scss/_variables.scss";
+			`,
 			}
 		}
 	}
