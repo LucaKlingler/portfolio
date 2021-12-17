@@ -67,4 +67,8 @@ font-family: 'Roboto', sans-serif;
 #app{
   position: relative;
 }
+
+.carousel-control-prev .carousel-control-next {
+  width: 5% !important;
+}
 </style>
