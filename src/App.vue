@@ -13,7 +13,7 @@ body{
   color: $light-text-color;
 }
 * {
-font-size: 25pt;
+font-size: 18pt;
 overflow-x: hidden;
 font-family: 'Roboto', sans-serif;
 /*font-family: 'Roboto Slab', serif;*/
