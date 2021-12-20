@@ -19,6 +19,64 @@ font-family: 'Roboto', sans-serif;
 /*font-family: 'Roboto Slab', serif;*/
 }
 
+.portrait {
+    width: 20em;
+    height: 20em;
+  }
+
+  .back {
+    position: fixed;
+    z-index: 2;
+    top: 3em;
+    left: 3em;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 32pt;
+  }
+
+  
+  .homescreen {
+    text-align: center;
+  }
+
+  .beschreibung {
+    padding-left: 6rem;
+    text-align: left;
+    margin-left: 0em;
+  }
+
+  .beschreibung-rechts {  
+    padding-right: 6rem;
+    text-align: left;
+  } 
+
+  .section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+ .aboutme {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10em;
+    height: 4em;
+  }
+
+
 .easteregg {
   cursor: url('https://marcrufeis.de/repo/share/luca/luca.png'), auto
 }
@@ -70,5 +128,11 @@ font-family: 'Roboto', sans-serif;
 
 .carousel-control-prev .carousel-control-next {
   width: 5% !important;
+}
+
+.linkportfolio {
+  font-size: smaller;
+  color: $light-text-color;
+  font-style: italic;
 }
 </style>
