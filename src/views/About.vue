@@ -14,8 +14,7 @@
           Design of Networked Systems), is not necessarily a familiar term to everyone. The easiest way to explain it
           would probably be with terms like "smart home", but there is much more to it than that. We are basically
           focused on the development of networked, digital products and services. 
-          <br>
-          So terms like machine learning, artificial intelligence and prototyping are not unfamiliar to me.
+          Terms like machine learning, artificial intelligence and prototyping are not unfamiliar to me.
           I understand design as a tool for solving problems. In my studies, I learn to solve future problems through
           user-centered work and thus form the bridge between developers and designers.
         </p>
@@ -32,11 +31,11 @@
       </div>
       <div class="col">
         <p class="beschreibung-rechts">
-                Due to my rural proximity to Affalterbach, <br> Zuffenhausen and Neckarsulm, a fascination for cars grew in me early on. <br>
-                In the summer I also like to ride my motorcycle. When the winter doesn't <br> allow it any more 
-                I like to spend my free time snowboarding in the mountains. <br>
-                I always try to expand my knowledge and apply what I have learned. <br>
-                Above all, I have a great interest in design as well as technology, 
+                Due to my rural proximity to Affalterbach, Zuffenhausen and Neckarsulm, a fascination for cars grew in me early on.
+                In the summer I also like to ride my motorcycle. When the winter doesn't allow it any more 
+                I like to spend my free time snowboarding in the mountains.
+                I always try to expand my knowledge and apply what I have learned.
+                Above all, I have a great interest in design as well as technology, <br>
                 which is why I found my way into the field of "IoT" after graduating from high school.
               </p>
 

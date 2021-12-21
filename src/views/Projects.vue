@@ -49,9 +49,9 @@
       <p class="beschreibung-rechts">
           In collaboration with the famous chefs Christian Rach, Johann Lafer and Alexander Herrmann, 
           we developed a concept for the cuisine of the future. Our kitchen concept addresses the lifestyle of the future. 
-          Based on future <br> IoT technologies, our users should experience a new lifestyle of cooking and 
+          Based on future IoT technologies, our users should experience a new lifestyle of cooking and 
           be presented with an intelligent kitchen experience. However, the most important thing for us here is 
-          that the technology supports and <br> does not take over. 
+          that the technology supports and does not take over. 
           <br> <a href="https://portfolio.hfg-gmuend.de/w-2021/projekte/smart-kitchen" target="_blank"><p class="linkportfolio">learn more</p></a>
         </p>
       </div>
